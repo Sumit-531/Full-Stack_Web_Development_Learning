@@ -1,0 +1,25 @@
+body{
+    background-color: #FAF9F6;
+}
+
+div{
+    text-align: center;
+}
+
+.project-img{
+    width:40%;
+    border: 5px solid black;
+}
+
+.center-list{
+    display:inline-block;
+    text-align: left;
+}
+
+.container{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
