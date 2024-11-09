@@ -1,0 +1,19 @@
+h1{
+    color:green;
+}
+
+.red-heading{
+    color:red
+}
+
+#main{
+    color:aqua
+}
+
+p[draggable="false"]{
+    color:orange
+}
+
+*{
+    color:green;
+}
