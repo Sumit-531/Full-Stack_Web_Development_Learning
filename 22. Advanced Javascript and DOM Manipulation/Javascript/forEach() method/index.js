@@ -4,39 +4,39 @@
 
 //=========================================================================
 
-// //Example 1:
+//Example 1:
 
-// let numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 
-// const display = (element) => console.log(element);
+const display = (element) => console.log(element);
 
-// numbers.forEach(display);
+numbers.forEach(display);
 
-// //Example 2:
-// let numbers2 = [1, 2, 3, 4, 5];
+//Example 2:
+let numbers2 = [1, 2, 3, 4, 5];
 
-// function double(element, index, array){
-//     array[index] = element * 2;
-// }
+function double(element, index, array){
+    array[index] = element * 2;
+}
 
-// const display2 = (element) => console.log(element);
+const display2 = (element) => console.log(element);
 
-// numbers.forEach(double);
-// numbers.forEach(display2);
+numbers.forEach(double);
+numbers.forEach(display2);
 
-//Example 3:
-// numbers3 = [1, 2, 4, 9];
+// Example 3:
+numbers3 = [1, 2, 4, 9];
 
-// const square = (element, index, array) => {
-//     array[index] = Math.pow(element, 2);
-// }
-// const display3 = (element) => console.log(element);
+const square = (element, index, array) => {
+    array[index] = Math.pow(element, 2);
+}
+const display3 = (element) => console.log(element);
 
-// numbers3.forEach(square);
-// numbers3.forEach(display3);
+numbers3.forEach(square);
+numbers3.forEach(display3);
 
 //Example 4:
-fruits = ["Mango", "Banana", "Licchi", "Jackfuit"];
+let fruits = ["Mango", "Banana", "Licchi", "Jackfuit"];
 
 const upperCaseFruits = (element, index, array) => {
     array[index] = element.toUpperCase();
@@ -45,3 +45,10 @@ const display4 = (element) => console.log(element);
 
 fruits.forEach(upperCaseFruits);
 fruits.forEach(display4);
+
+// Example 5:
+let fruitName = ["Mango", "Apple", "Strawberry"];
+
+fruitName.forEach((fruit) => {
+    console.log(fruit);
+});
