@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-size: 25px;
+            background-color: yellow;
+            color: darkgreen;
+            border-radius: 25px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="./page2.html">
+        <button>Click Me</button>
+    </a>
+
+    <button onclick="changeGreeting()" id="button2">Greeting</button>
+    <p id="Greeting">Hello</p>
+
+
+    <script>
+        function changeGreeting(){
+            document.getElementById("Greeting").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>
