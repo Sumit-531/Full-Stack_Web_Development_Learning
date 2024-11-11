@@ -1,0 +1,32 @@
+#custom-border{
+    border: 5px solid white;
+}
+
+html{
+    background-color: black;
+}
+
+.white-text{
+    color: white;
+}
+
+#libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+div{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2.5%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-transform: uppercase;
+}
