@@ -1,0 +1,15 @@
+h1, h2, p{
+    color:blueviolet;
+}
+
+.new{
+    color: black;
+}
+
+#targeted-one{
+    color:red;
+}
+
+.new > #targeted-one{
+    color: green;
+}

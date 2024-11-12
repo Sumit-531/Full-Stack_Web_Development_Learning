@@ -1,0 +1,46 @@
+/* Write your code here: */
+
+h1, h2{
+    color: blueviolet;
+}
+
+
+/* example 1:
+div > p {
+    color: firebrick;
+}
+*/
+
+/*
+.box > .done{
+    color: firebrick;
+}
+*/
+
+.box > p{
+    color: firebrick;
+}
+
+/*
+.box .list{
+    color: blue;
+}
+*/
+
+/*
+div li{
+    color: blue;
+}
+*/
+
+.box li{
+    color: blue;
+}
+
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
