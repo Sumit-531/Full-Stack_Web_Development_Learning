@@ -1,0 +1,147 @@
+/*Using colors:
+1. hex code: #3FA2F6
+2. hex code: #96C9F4
+3. hex code #6BB6F5 
+*/
+.circle {
+    background: #6BB6F5;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 32%;
+    left: 48%;
+
+}
+
+.border-circle {
+    border: 2px solid black;
+}
+
+.bg-color-one{
+    background-color: #3FA2F6;
+}
+
+.bg-color-two{
+    background-color: #96C9F4;
+}
+
+.bg-color-three{
+    background-color: #6BB6F5;
+}
+
+/*Roboto Font*/
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+
+  }
+
+/*Merriweather Font*/  
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+}
+
+
+/*Flexbox*/
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#item-one{
+    padding: 5px;
+    margin: 10px;
+    font-size: 50px;
+    position: relative;
+
+}
+
+#item-two{
+    padding: 5px;
+    font-size: 20px;
+    position: relative;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 100px 1fr 60px 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-items{
+    background: white;
+}
+
+#grid-item-one{
+    grid-column: span 6;
+    order: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#grid-item-one>h2{
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+#grid-item-two{
+    grid-area: 2/3/4/4;
+    order: 2;
+    margin-right: 10px;
+}
+
+#grid-item-three{
+    grid-area: 2/4/3/5;
+    order: 3;
+}
+
+#grid-item-four{
+    order: 4;
+    grid-area: 2/4/4/6;
+    margin-top: 50px;
+}
+
+#grid-item-five{
+    order: 5;
+    grid-area: 4/3/5/4;
+}
+
+#grid-item-six{
+    order: 6;
+    grid-area: 4/4/5/5;
+}
+
+#grid-item-seven{
+    order: 7;
+    grid-area: 4/4/5/6;
+    margin-top: 50px;
+}
+
+
+.grid-container2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-items2{
+    background:gray;
+}
+
+.no-style {
+    text-decoration: none;
+    color: inherit;
+    
+    /* padding: 0;
+    margin: 0;
+    Add any other properties you want to reset */
+}
+
+
+
+
+/**/
