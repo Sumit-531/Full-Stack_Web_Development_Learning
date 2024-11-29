@@ -1,0 +1,8 @@
+var player1 = randomNumberGenerator();
+document.querySelector(".dice>.img1").setAttribute("src", "./images/dice" + player1 + ".png");
+
+var player2 = randomNumberGenerator();
+document.querySelector(".dice>.img2").setAttribute("src", "./images/dice" + player2 + ".png");
+
+document.querySelector("h1").innerHTML = result(player1, player2);
+

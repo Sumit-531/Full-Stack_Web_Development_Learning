@@ -1,0 +1,4 @@
+document.querySelector(".dice>.img1").setAttribute("src", "./images/dice" + randomNumberGenerator() + ".png");
+
+document.querySelector(".dice>.img2").setAttribute("src", "./images/dice" + randomNumberGenerator() + ".png");
+
