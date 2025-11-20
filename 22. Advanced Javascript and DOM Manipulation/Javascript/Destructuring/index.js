@@ -40,3 +40,31 @@ console.log(firstColor);
 console.log(secondColor);
 console.log(thirdColor);
 console.log(extraColors);
+
+//**************************************************************************************************************
+// OBJECT DESTRUCTURING
+
+//****Extract Values From Object****/
+// Example 4:
+
+const personOne = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 60,
+  job: "Software engineer",
+};
+const personTwo = {
+  firstName: "Christopher",
+  lastName: "Nolan",
+  age: 55,
+};
+
+// Object Destructuring           // Default value for Undefined property
+const { firstName, lastName, age, job = "Unemployed" } = personOne;
+
+console.log(firstName);
+console.log(lastName);
+console.log(age);
+console.log(job);
+
+console.log(personTwo.lastName); // Nolan
