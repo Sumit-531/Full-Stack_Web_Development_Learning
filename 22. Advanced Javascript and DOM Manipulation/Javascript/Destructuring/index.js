@@ -53,6 +53,7 @@ const personOne = {
   age: 60,
   job: "Software engineer",
 };
+
 const personTwo = {
   firstName: "Christopher",
   lastName: "Nolan",
@@ -68,3 +69,28 @@ console.log(age);
 console.log(job);
 
 console.log(personTwo.lastName); // Nolan
+
+//****Destructure in Function Parameters****/
+// Example 5:
+//                     // function destructuring
+function displayCountry({ name, capital, population, independenceDay }) {
+  console.log(`Name: ${name}`);
+  console.log(`Capital: ${capital}`);
+  console.log(`Population: ${population}`);
+  console.log(`Independence Day: ${independenceDay}`);
+}
+
+const countryOne = {
+  name: "Bangladesh",
+  capital: "Dhaka",
+  population: "170 million",
+  independenceDay: "March 26, 1971",
+};
+const countryTwo = {
+  name: "USA",
+  capital: "Washington DC",
+  population: "343 million",
+  independenceDay: "July 4, 1776",
+};
+
+displayCountry(countryOne);
