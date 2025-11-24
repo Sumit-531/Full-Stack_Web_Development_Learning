@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "embedding": {
+        "type": "knnVector",
+        "dimensions": 768,
+        "similarity": "cosine"
+      },
+      "embedding-text": {
+        "type": "string"
+      }
+    }
+  }
+}
