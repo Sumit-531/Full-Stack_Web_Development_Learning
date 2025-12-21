@@ -32,3 +32,14 @@ const foods = getFood(foodOne, foodTwo, foodThree, foodFour, foodFive);
 console.log(foods); // Output -> [ 'Chicken Biriyani', 'Kacchi', 'Khichuri', 'Pizza', 'Fried Rice' ]
 
 // Example 2
+function sum(...numbers) {
+  let result = 0;
+  for (let number of numbers) {
+    result += number;
+  }
+  return result;
+}
+
+const total = sum(1, 9, 11);
+
+console.log(`Your total is ${total} ৳`);
