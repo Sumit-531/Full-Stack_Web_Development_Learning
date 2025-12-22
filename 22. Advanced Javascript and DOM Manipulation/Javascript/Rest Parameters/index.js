@@ -43,3 +43,24 @@ function sum(...numbers) {
 const total = sum(1, 9, 11);
 
 console.log(`Your total is ${total} ৳`);
+
+function getAverage(...numbers) {
+  let result = 0;
+  for (let number of numbers) {
+    result += number;
+  }
+  return result / numbers.length;
+}
+
+const totalTwo = getAverage(9, 214, 53, 232);
+console.log(totalTwo);
+
+// Example 3
+// Combine strings together
+function combineStrings(...name) {
+  return name.join(" ");
+}
+
+const fullName = combineStrings("Mr.", "Sumit", "Chakraborty");
+
+console.log(fullName);
