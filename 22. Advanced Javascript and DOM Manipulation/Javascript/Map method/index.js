@@ -37,3 +37,16 @@ function lowerCase(element) {
 
 console.log(namesWithUpperCase); // Output -> [ 'GOKU', 'VEGETA', 'GOHAN', 'GOTEN', 'TRUNKS', 'PICOLO' ]
 console.log(namesWithLowerCase); // Output -> [ 'goku', 'vegeta', 'gohan', 'goten', 'trunks', 'picolo' ]
+
+// Example 2
+
+const dates = ["2025/11/12", "2026/30/4", "2027/26/1"];
+
+const formattedDates = dates.map(formatDates);
+
+function formatDates(element) {
+  const parts = element.split("/");
+  return `${parts[1]}-${parts[2]}-${parts[0]}`;
+}
+
+console.log(formattedDates); // Output -> [ '11-12-2025', '30-4-2026', '26-1-2027' ]
