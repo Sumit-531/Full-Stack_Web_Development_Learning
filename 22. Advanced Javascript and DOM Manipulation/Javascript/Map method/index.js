@@ -19,3 +19,21 @@ function cube(element) {
 
 console.log(squares); // Output -> [ 1, 4, 9, 81, 361 ]
 console.log(cubes); // Output -> [ 1, 8, 27, 729, 6859 ]
+
+// Example 2
+
+const names = ["Goku", "Vegeta", "Gohan", "Goten", "Trunks", "Picolo"];
+
+const namesWithUpperCase = names.map(upperCase);
+const namesWithLowerCase = names.map(lowerCase);
+
+function upperCase(element) {
+  return element.toUpperCase();
+}
+
+function lowerCase(element) {
+  return element.toLowerCase();
+}
+
+console.log(namesWithUpperCase); // Output -> [ 'GOKU', 'VEGETA', 'GOHAN', 'GOTEN', 'TRUNKS', 'PICOLO' ]
+console.log(namesWithLowerCase); // Output -> [ 'goku', 'vegeta', 'gohan', 'goten', 'trunks', 'picolo' ]
