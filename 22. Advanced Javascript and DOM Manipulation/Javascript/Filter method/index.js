@@ -36,3 +36,29 @@ function isChild(element) {
 
 console.log(adults); // Output -> [ 18, 19, 33, 36, 82 ]
 console.log(child); // Output -> [ 11, 12, 13, 13 ]
+
+// Example 3
+
+const words = [
+  "beautiful",
+  "computer",
+  "book",
+  "cricket",
+  "mango",
+  "system",
+  "data",
+];
+
+const longWords = words.filter(isLong);
+const shortWords = words.filter(isShort);
+
+function isLong(element) {
+  return element.length >= 6;
+}
+
+function isShort(element) {
+  return element.length < 6;
+}
+
+console.log(longWords); // Output -> [ 'beautiful', 'computer', 'cricket', 'system' ]
+console.log(shortWords); // Output -> [ 'book', 'mango', 'data' ]
